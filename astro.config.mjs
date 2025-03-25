@@ -11,27 +11,33 @@ import codeImport from 'remark-code-import';
 import remarkBlockContainers from 'remark-block-containers';
 import astroExpressiveCode from 'astro-expressive-code';
 import rehypeFigure from 'rehype-figure';
-
 import { remarkModifiedTime } from './plugins/remark-modified-time';
 import { remarkReadingTime } from './plugins/remark-reading-time';
 import slateConfig from './slate.config';
 
 function computedIntegrations() {
-  const result = [astroExpressiveCode(), mdx(), react(), sitemap(slateConfig.sitemap)];
-
+  const result = [
+    astroExpressiveCode(),
+    mdx(),
+    react(),
+    sitemap(slateConfig.sitemap),
+  ];
   return result;
 }
 
 function generateAstroConfigure() {
   const astroConfig = {
-    site: slateConfig.site,
+    site: {
+      title: 'Victor Eduardo Resendiz Villegas',
+      description: 'Desarrollador web y experto en seguridad informática',
+      url: 'https:                                     
+    },
     integrations: computedIntegrations(),
     markdown: {
       remarkPlugins: [
         remarkGemoji,
         remarkMath,
         codeImport,
-        // [codesandbox, { mode: 'button' }],
         remarkBlockContainers,
       ],
       rehypePlugins: [rehypeKatex, rehypeFigure],
@@ -39,7 +45,25 @@ function generateAstroConfigure() {
     vite: {
       plugins: [
         svgr(),
-        tailwindcss(),
+        tailwindcss({
+          config: '//victoreduardoresendizvillegas.com',
+    },
+    integrations: computedIntegrations(),
+    markdown: {
+      remarkPlugins: [
+        remarkGemoji,
+        remarkMath,
+        codeImport,
+        remarkBlockContainers,
+      ],
+      rehypePlugins: [rehypeKatex, rehypeFigure],
+    },
+    vite: {
+      plugins: [
+        svgr(),
+        tailwindcss({
+          config: './tailwind.config.js',
+        }),
       ],
     },
   };
