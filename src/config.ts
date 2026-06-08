@@ -1,7 +1,7 @@
 export const SITE = {
     website: "https://pepegriyougdjd.github.io", // replace this with your deployed domain
-    title: "Bienvenidos",
-    description: "Ahuol",
+    title: "Ing. Victor Eduardo Resendiz Villegas",
+    description: "Ingeniero en Ciberseguridad con experiencia en operaciones SOC, implementación y administración, seguridad y protección de infraestructuras críticas",
     tags: ["Bienvenidos", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
     logo: "logo",
@@ -19,21 +19,25 @@ export const ME = {
     profileImage: "pp2.png",
     profileFacts: [
         {
-            value: 10,
+            value: 9,
             description: "Años de Experiencia"
         },
         {
-            value: 5,
-            description: "Completed Projects"
+            value: 77,
+            description: "Proyectos Culminados"
         },
         {
-            value: 4,
-            description: "Satisfied Clients"
+            value: 41,
+            description: "Clientes"
+     },
+        {
+            value: 1,
+            description: "Reconocimiento internacional"
         }
     ],
     contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
+        email: "victorresendizv@outlook.com",
+        linkedin: "https://www.linkedin.com/in/victor-eduardo-resendiz-villegas-910a80290?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         resumeDoc: "resume.pdf",
     },
     aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
