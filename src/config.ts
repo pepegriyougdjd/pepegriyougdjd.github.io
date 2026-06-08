@@ -1,8 +1,8 @@
 export const SITE = {
-    website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
-    title: "Simple Portfolio",
+    website: "https://pepegriyougdjd.github.io", // replace this with your deployed domain
+    title: "Bienvenidos",
     description: "A simple but beautiful portfolio created with Astro",
-    tags: ["portfolio", "Resume cv", "Astro"],
+    tags: ["Bienvenidos", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
     logo: "logo",
     logoText: "Portfolio",
