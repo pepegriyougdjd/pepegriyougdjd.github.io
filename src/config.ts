@@ -5,7 +5,7 @@ export const SITE = {
     tags: ["Bienvenidos", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
     logo: "logo",
-    logoText: "Portfolio",
+    logoText: "Bienvenidos",
     lang: "en",
     favicon: "/favicon.png",
     repository: "https://github.com/pepegriyougdjd/pepegriyougdjd.github.io",
@@ -15,12 +15,12 @@ export const SITE = {
 
 export const ME = {
     name: "Ing. Victor Eduardo Resendiz Villegas",
-    profession: "Software Engineer | Full Stack Developer",
+    profession: "Ing. Gestión, Administracion e implementacion  de soluciones en ciberseguridad - Senior",
     profileImage: "pp2.png",
     profileFacts: [
         {
             value: 10,
-            description: "Years of Experience"
+            description: "Años de Experiencia"
         },
         {
             value: 5,
