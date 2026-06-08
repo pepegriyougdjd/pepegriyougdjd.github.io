@@ -1,16 +1,16 @@
 export const SITE = {
     website: "https://pepegriyougdjd.github.io", // replace this with your deployed domain
     title: "Bienvenidos",
-    description: "A simple but beautiful portfolio created with Astro",
+    description: "Ahuol",
     tags: ["Bienvenidos", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
     logo: "logo",
     logoText: "Portfolio",
     lang: "en",
     favicon: "/favicon.png",
-    repository: "https://github.com/vito8916/simple-portfolio.git",
+    repository: "https://github.com/pepegriyougdjd/pepegriyougdjd.github.io",
     author: "Victor Eduardo Resendiz Villegas",
-    profile: "https://victoralvarado.dev/",
+    profile: "https://pepegriyougdjd.github.io/",
 }
 
 export const ME = {
