@@ -29,7 +29,7 @@ export const ME = {
         {
             value: 65,
             description: "Clientes"
-     },
+        },
         {
             value: 1,
             description: "Reconocimiento internacional"
