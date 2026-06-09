@@ -27,12 +27,12 @@ export const ME = {
             description: "Proyectos Culminados"
         },
         {
-            value: 65,
+            value: 64,
             description: "Clientes"
         },
         {
-            value: 1,
-            description: "Reconocimiento internacional"
+            value: 25,
+            description: "Reconocimiento"
         }
     ],
     contactInfo: {
