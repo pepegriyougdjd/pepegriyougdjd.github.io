@@ -44,8 +44,8 @@ interface WorkExperience {
  */
 const workExperience:WorkExperience[] = [
     {
-        title: "Frontend Developer",
-        startDate: "2020-03-10",
+        title: "Ing. Gestión, Administracion e implementacion de soluciones en ciberseguridad - Senior",
+        startDate: "IQSEC S.A dE CV",
         company: "Google Inc",
         location: "United States",
         description: "Developed and maintained web applications using React, NextJs, and Tailwind CSS.",
