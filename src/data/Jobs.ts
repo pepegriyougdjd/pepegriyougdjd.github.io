@@ -57,7 +57,7 @@ const workExperience:WorkExperience[] = [
         currentJob: true,
     },
     {
-        title: "Software Engineer",
+        title: "IQSEC S.A DE C.V.,
         startDate: "2018-03-10",
         endDate: "2020-03-10",
         company: "Company Name",
