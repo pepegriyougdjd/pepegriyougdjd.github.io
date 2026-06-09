@@ -70,5 +70,31 @@ const workExperience:WorkExperience[] = [
         ],
         currentJob: false,
     },
+   {
+        title: "Frontend Developer",
+        startDate: "2020-03-10",
+        company: "Google Inc",
+        location: "United States",
+        description: "Developed and maintained web applications using React, NextJs, and Tailwind CSS.",
+        goals: [
+            "Developed and maintained web applications using React, NodeJs, and MongoDB.",
+            "Worked with the team to develop and maintain web applications using React, NodeJs, and MongoDB.",
+            "Created and maintained web applications using React, NodeJs, and MongoDB.",
+        ],
+        currentJob: true,
+    },  
+     {
+        title: "Frontend Developer",
+        startDate: "2020-03-10",
+        company: "Google Inc",
+        location: "United States",
+        description: "Developed and maintained web applications using React, NextJs, and Tailwind CSS.",
+        goals: [
+            "Developed and maintained web applications using React, NodeJs, and MongoDB.",
+            "Worked with the team to develop and maintain web applications using React, NodeJs, and MongoDB.",
+            "Created and maintained web applications using React, NodeJs, and MongoDB.",
+        ],
+        currentJob: true,
+    },
 ];
 export default workExperience;
