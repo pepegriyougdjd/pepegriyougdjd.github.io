@@ -45,8 +45,8 @@ interface WorkExperience {
 const workExperience:WorkExperience[] = [
     {
         title: "Ing. Gestión, Administracion e implementacion de soluciones en ciberseguridad - Senior",
-        startDate: "IQSEC S.A dE CV",
-        company: "Google Inc",
+    startDate: "2018-03-10",
+        endDate: "2020-03-10",
         location: "United States",
         description: "Developed and maintained web applications using React, NextJs, and Tailwind CSS.",
         goals: [
@@ -57,7 +57,7 @@ const workExperience:WorkExperience[] = [
         currentJob: true,
     },
     {
-        title: "IQSEC S.A DE C.V.,
+        title: "Ing. Gestión, Administracion e implementacion de soluciones en ciberseguridad - Senior",
         startDate: "2018-03-10",
         endDate: "2020-03-10",
         company: "Company Name",
